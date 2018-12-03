@@ -1,0 +1,14 @@
+
+.logo{
+  width: inherit;
+  height: inherit;
+}
+#carousel{
+  height:50%;
+  padding: 25px;
+
+}
+.container{
+  height: 50%;
+  width: 75%;
+}
