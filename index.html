@@ -10,13 +10,26 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <title>Agselect</title>
+  <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
 </head>
 
 <body>
-  <nav class="navbar sticky navbar-expand-lg navbar-dark " style="background-color: #2E7E36">
+  <nav class="navbar sticky  navbar-dark bg-success " style="background-color: #2E7E36">
+
     <a class="navbar-brand" href="index.html">
-      <img class="logo" src="GreenFundSolutions.jpg" alt="GreenFUndSolutionslogo">
+      <img class="logo rounded" src="agSelectLogo.jpg" alt="AgSelectlogo">
     </a>
+    <span class="navbar-text float-right">
+
+      <a href="contact.html"> (833) 697-6649</a> |
+      <a href="contact.html"> dhamilton@greenfundsolutions.com </a> |
+      <a href="https://www.facebook.com/AgSelectUSA/" target="_blank">
+        <img src="facebook.png" class="socialMedia" alt="Facebook">
+      </a>
+      <a href="https://twitter.com/ag_select" target="_blank">
+        <img src="Twitter.png" class="socialMedia" alt="Twitter">
+      </a>
+    </span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -24,31 +37,29 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="contact.html">Contact Us</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             About
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Who We are</a>
+            <a class="dropdown-item" href="who.html">Who We are</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">What We do</a>
-
-
+            <a class="dropdown-item" href="what.html">What We do</a>
           </div>
         </li>
-
       </ul>
 
     </div>
+
   </nav>
   <div class="container">
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide  " data-ride="carousel" data-interval="2500">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -56,10 +67,22 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="highquailtydrinks.jpg" alt="high quailty drinks">
+          <img class="d-block w-100 rounded" src="herbs.jpg" alt="herbs">
+          <div class="carousel-caption d-none d-md-block rounded bg-secondary">
+            <h5>The core of our mission is to promote new agriculture jobs as well as assist individual producers distribute their premium products</h5>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block w-100 rounded" src="landscape.jpg" alt="landscape">
+          <div class="carousel-caption d-none d-md-block rounded bg-secondary">
+            <h5>We want to know exactly where your food is coming from. We visit the producer locations to ensure the product you purchase is of the highest quality and production standards.</h5>
+          </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100 h-600" src="organicHerbs.jpg" alt="Second slide">
+          <img class="d-block w-100 rounded" src="table.png" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block rounded  bg-secondary">
+            <p>AgSelect distributes key high end food and beverage products from a variety of countries with focused distribution in the Midwestern US.</p>
+          </div>
         </div>
 
       </div>
@@ -74,34 +97,51 @@
 
       </a>
 
+
     </div>
-    <div class="row">
-  <div class="col-sm-6">
-    <div class="card text-white bg-dark mb-3 border-success mb-3" style="max-width: 18rem;">
-      <div class="card-header text-success">Header</div>
-      <div class="card-body text-success">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-success text-dark">Go somewhere</a>
+    <div class="card-deck ">
+      <div class="card text-white bg-dark ">
+        <img class="card-img-top rounded" src="worker.png" alt="worker">
+        <div class="card-body">
+          <h5 class="card-title ">Who We Are</h5>
+          <p class="card-text">AgSelect is a regional distributor of food and beverage products in the Midwest focusing on supporting small farms and delivering niche products to the market.</p>
+        </div>
+        <div class="card-footer">
+          <a href="who.html" class="text-white">More info</a>
+        </div>
+      </div>
+      <div class="card text-white bg-dark">
+        <img class="card-img-top rounded" src="drinks.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">What We Do</h5>
+          <p class="card-text">AgSelect searches out best of breed producers of niche products both in the US and other countries and helps to market and distribute those products directly to the market. This enables the producers to focus on what
+            they do best as well as optimizes income for them making their operations sustainable. </p>
+        </div>
+        <div class="card-footer">
+          <a href="what.html" class="text-white">More info</a>
+        </div>
+      </div>
+      <div class="card text-white bg-dark">
+        <img class="card-img-top" src="agSelectLogo.jpg" alt="Card image cap">
+        <div class="card-body ">
+          <h5 class="card-title"> Contact Us</h5>
+          <p class="card-text">If you have interest in our products or are a producer please contact Dennis Hamilton at: dhamilton@greenfundsolutions.com | (833)-697-6649</p>
+          <a href="https://www.facebook.com/AgSelectUSA/" target="_blank">
+            <img src="facebook.png" class="socialMediaCard" alt="Facebook">
+          </a>
+          <a href="https://twitter.com/ag_select" target="_blank">
+            <img src="Twitter.png" class="socialMediaCard" alt="Twitter">
+          </a>
+        </div>
+        <div class="card-footer ">
+          <a href="contact.html" class="text-white">Contact Us</a>
+        </div>
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
-      <div class="card text-white bg-dark mb-3 border-success mb-3" style="max-width: 18rem;">
-      <div class="card-header text-success">Header</div>
-      <div class="card-body text-success">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-success text-dark">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-</div>
-  </div>
 
 
-
-  <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark   " style=" background-color:#2E7E36; ">
+  <nav class="navbar  navbar-expand-sm navbar-dark bg-success  " id="bottomNav" style=" background-color:#2E7E36; ">
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -109,10 +149,10 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="contact.html">Contact Us</a>
         </li>
 
 
